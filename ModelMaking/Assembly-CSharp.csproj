@@ -53,8 +53,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BLOC_ENUM.cs" />
      <Compile Include="Assets\Scripts\BlocScript.cs" />
      <Compile Include="Assets\Scripts\GeneratorScript.cs" />
+     <Compile Include="Assets\Scripts\SoundScript.cs" />
+     <Compile Include="Assets\Scripts\SwordScript.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Mariot/Documents/GitHub/SlapStick/ModelMaking/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>

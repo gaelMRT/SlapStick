@@ -12,6 +12,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBoxSlice Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 8440637508621970904, guid: d5c8ea44e74be3e4ab3ef213e4a52cd7,
+        type: 3}
+      propertyPath: m_TagString
+      value: BlocSlice
+      objectReference: {fileID: 0}
     - target: {fileID: 8440637508622463480, guid: d5c8ea44e74be3e4ab3ef213e4a52cd7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -72,5 +77,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 584482c0e4ebd124fbd4b1276cb8709e, type: 2}
+    - target: {fileID: 6555491948820719972, guid: d5c8ea44e74be3e4ab3ef213e4a52cd7,
+        type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5c8ea44e74be3e4ab3ef213e4a52cd7, type: 3}

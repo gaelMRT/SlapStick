@@ -16,7 +16,6 @@ public class BlocScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("rigidbody : " + rgdbdy.velocity.magnitude);
     }
 
     /// <summary>

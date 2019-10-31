@@ -12,6 +12,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBoxPoint Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 8440637508621970904, guid: d5c8ea44e74be3e4ab3ef213e4a52cd7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bloc
+      objectReference: {fileID: 0}
     - target: {fileID: 8440637508622463480, guid: d5c8ea44e74be3e4ab3ef213e4a52cd7,
         type: 3}
       propertyPath: m_LocalPosition.x

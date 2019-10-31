@@ -13,9 +13,11 @@ GameObject:
   - component: {fileID: 199788532904430036}
   - component: {fileID: 199788532892755156}
   - component: {fileID: 5634796717935887362}
+  - component: {fileID: 6426325441108369043}
+  - component: {fileID: 1205338266815646449}
   m_Layer: 0
   m_Name: sword
-  m_TagString: Untagged
+  m_TagString: Sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112,3 +114,33 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 92811a264efd79b48904c77f5db049c3, type: 3}
+--- !u!114 &6426325441108369043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199788532902237972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22bd5fe3e596fb148b2c3be2ef44eff9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sparkleParticle: {fileID: 3496611259325926151, guid: 91d127e7e9cd67e4ea74c2d2db8d02d5,
+    type: 3}
+--- !u!54 &1205338266815646449
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199788532902237972}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
