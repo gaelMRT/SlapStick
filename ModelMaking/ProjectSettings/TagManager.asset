@@ -11,6 +11,8 @@ TagManager:
   - BlocSliceRed
   - BlocBlue
   - BlocRed
+  - Obstacle
+  - Bomb
   layers:
   - Default
   - TransparentFX
