@@ -5,16 +5,17 @@ using UnityEngine;
 public class BlocScript : MonoBehaviour
 {
     public float speed = 1.0F;
+    private Rigidbody rgdbdy;
     // Start is called before the first frame update
     void Start()
     {
+        rgdbdy = gameObject.GetComponent<Rigidbody>();
+        rgdbdy.velocity = new Vector3(0,0,-speed);
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 pos = this.transform.position;
-        this.transform.position = new Vector3(pos.x,pos.y,pos.z-speed*Time.deltaTime);
     }
 
     /// <summary>
